@@ -7,7 +7,7 @@ from io import BytesIO
 import base64
 
 # ---- การอ่านข้อมูลจาก CSV ----
-data = pd.read_csv('sales_data.csv')
+data = pd.read_csv('FinalRetail/sales_data.csv')
 
 # ---- การตั้งค่าและแสดงชื่อหัวข้อ Dashboard ----
 st.title('Sales Dashboard')
